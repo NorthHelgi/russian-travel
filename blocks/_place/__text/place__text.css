@@ -1,0 +1,35 @@
+.place__text {
+  margin: 0 auto;
+  grid-area: text;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+.place__text p:nth-of-type(2) {
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    max-height: 232px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0 16px;
+  }
+}
