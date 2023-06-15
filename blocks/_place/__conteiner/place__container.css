@@ -7,7 +7,6 @@
     "image text";
   column-gap: 40px;
   row-gap: 48px;
-  max-height: 984px;
   margin-bottom: 80px;
 }
 
@@ -19,7 +18,6 @@
   .place__container {
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
-    max-height: 640px;
     margin-bottom: 80px;
   }
 
@@ -29,7 +27,6 @@
   .place__container {
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
-    min-height: 490px;
     margin-bottom: 72px;
   }
 }
@@ -43,7 +40,6 @@
       "text";
     grid-template-columns: 1fr;
     row-gap: 32px;
-    min-height: 964px;
     margin-bottom: 50px;
   }
 }
