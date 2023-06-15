@@ -1,4 +1,4 @@
-.place__website {
+.places__website {
   grid-area: website;
   display: flex;
   flex-direction: column;
