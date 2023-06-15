@@ -1,14 +1,12 @@
 .logo_place_header {
   grid-area: logo;
-  max-width: 176px;
-  max-height: 52px;
+  min-height: 52px;
 }
 
 @media screen and (max-width: 320px) {
   .logo_place_header {
     grid-area: logo;
-    max-width: 142px;
-    max-height: 42px;
+    min-height: 42px;
   }
 
 }
