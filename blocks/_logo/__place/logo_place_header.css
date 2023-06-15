@@ -6,6 +6,7 @@
 @media screen and (max-width: 320px) {
   .logo_place_header {
     grid-area: logo;
+    max-width: 142px;
     min-height: 42px;
   }
 
