@@ -1,10 +1,10 @@
-.header__lang {
+.lang {
   grid-area: link;
   display: flex;
   flex-direction: row;
   column-gap: 18px;
 }
 
-.header__lang:hover {
+.lang:hover {
   opacity: 0.3;
 }
