@@ -1,0 +1,19 @@
+.lead_image {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead_image {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead_image {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,16 @@
+.places__text {
+  margin: 0;
+  grid-area: text;
+}
+
+.places__text p:nth-of-type(2) {
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 320px) {
+  .places__text {
+    margin: 0 16px;
+  }
+}
