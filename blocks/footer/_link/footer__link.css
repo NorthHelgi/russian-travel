@@ -1,10 +1,10 @@
 .footer__link {
     color: white;
     text-decoration: none;
-    ffont-family: 'Inter';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.000em;
+    font-size: 16px;
     line-height: 18px;
 }
 
@@ -16,7 +16,7 @@
     .footer__link {
         font-style: normal;
         font-weight: 400;
-        font-size: 1.500em;
+        font-size: 24px;
         line-height: 24px;
     }
 }
