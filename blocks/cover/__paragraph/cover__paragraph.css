@@ -1,0 +1,23 @@
+.cover__paragraph {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 400;
+  font-size: calc(16px + 2 * (100vw / 1280));
+  line-height: 22px;
+  max-width: 360px;
+}
+
+@media screen and (min-width: 1281px) {
+  .cover__paragraph {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .cover__paragraph {
+    font-size: 14px;
+    line-height: 16px;
+    
+  }
+}

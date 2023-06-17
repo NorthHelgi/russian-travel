@@ -4,7 +4,3 @@
   flex-direction: row;
   column-gap: 18px;
 }
-
-.lang:hover {
-  opacity: 0.3;
-}
