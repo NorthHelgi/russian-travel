@@ -11,9 +11,9 @@
     text-decoration: none;
 }
 
-.lang:hover {
+.lang__link:hover {
     opacity: 0.3;
-  }
+}
 
 @media screen and (max-width: 320px) {
     .lang__link {

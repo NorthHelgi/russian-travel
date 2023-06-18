@@ -8,14 +8,12 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 14px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 16px;
     margin: 88px 24px 0 24px;
   }
